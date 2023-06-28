@@ -1,0 +1,75 @@
+body {
+    background: #f5efe0;
+    /* box-sizing: border-box; */
+    color: #f1e1e1;
+    /* font-size: 1.8rem;
+    letter-spacing: -0.015em; */
+    text-align: center;
+}
+.navbar{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+}
+
+h1 {
+    font-style: italic;
+    color: #272625;
+    /* background-color: hotpink; */
+}
+.background{
+    background: rgba(191, 176, 176, 0.5);
+    background-size: cover;
+    background-blend-mode: darken;
+}
+.services{
+    box-sizing: border-box;
+    font-family: 'Baloo Bhai 2', cursive;
+    margin: 28px;
+    float: left;
+    width: 50%;
+    display: block;
+}
+table {
+    /* height: 340px; */
+    color: #f5efe0;
+    border-color: #000;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    overflow-y: scroll;
+}
+tr {
+    overflow-y: scroll;
+}
+th {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 100;
+    background: #666;
+    color: #FFF;
+    padding: 2px 6px;
+    border-collapse: separate;
+    border: 1px solid #000;
+}
+
+td {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    text-align: center;
+    border: 1px solid #DDD;
+    background: #666;
+}
+
+.column{
+    /* height: 350px; */
+    display: flex;
+    overflow-y: scroll;
+    /* float: left; */
+    /* width: 50%; */
+    align-items: center;
+}
