@@ -21,11 +21,11 @@
 //#include <Adafruit_BME280.h>
 WiFiClient wifiClient;
 // Replace with your network credentials
-const char* ssid     = "Galaxy M30sAF43";
-const char* password = "zayn malik";
+const char* ssid     = "Wifi_name";
+const char* password = "*****";
 
 // REPLACE with your Domain name and URL path or IP address with path
-const char* serverName = "http://192.168.207.228/sensor_int_data/post-esp-data.php";
+const char* serverName = "http://192.168.***.**/sensor_int_data/post-esp-data.php";
 
 // Keep this API Key value to be compatible with the PHP code provided in the project page. 
 // If you change the apiKeyValue value, the PHP file /post-esp-data.php also needs to have the same key 
