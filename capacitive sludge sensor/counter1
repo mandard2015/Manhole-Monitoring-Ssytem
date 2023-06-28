@@ -1,0 +1,20 @@
+import RPi.GPIO as GPIO
+import time
+
+input_pin = 27
+timer_ms = 1000
+
+GPIO.setmode(GPIO.BCM)
+GPIO.setup(input_pin, GPIO.IN)
+
+start_time = time.time()
+pulses = 0
+
+while (time.time() - start_time) < timer_ms/1000:
+if GPIO.input(input_pin) == 1:
+pulses += 1
+
+frequency = pulses * 1000 / timer_ms
+print("Frequency:", frequency, "Hz")
+
+GPIO.cleanup()
